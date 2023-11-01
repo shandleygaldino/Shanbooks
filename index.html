@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Styles/style.css">
+
+
+    <title>ShanBooks</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+            <span class="cabecalho__menu__hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista__menu">
+                <li class="lista__menu__titulo">Categorias</li>
+                <li class="lista__menu__item">
+                    <a href="#" class="lista__menu__link">Ficção Cientifica</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a href="#" class="lista__menu__link">aventura</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a href="#" class="lista__menu__link">Romance</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a href="#" class="lista__menu__link">Mangá</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a href="#" class="lista__menu__link">hq's</a>
+                </li>
+                </ul>
+            <img src="Assets/Logo.svg" alt="logo" class="container__imagem">
+        </div>
+        <div>
+            <a href="#"></a> <img src="Assets/Compras.svg" alt="Compras" class="container__imagem">
+            <a href="#"></a> <img src="Assets/Favoritos.svg" alt="Favoritos" class="container__imagem">
+            <a href="#"></a> <img src="Assets/Usuario.svg" alt="Usuarios" class="container__imagem">
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para completar sua coleção!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua proxima leitura">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div> 
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                    <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/oguia.jpg" alt="UX" ></div>
+                <div class="swiper-slide"><img src="./Assets/dirkgently.jpg" alt="dirk gently"></div>
+                <div class="swiper-slide"><img src="./Assets/Salmao.jpg" alt="" "></div>
+                <div class="swiper-slide"><img src="./Assets/jogador1.jpg" alt="Jogador n1"></div>
+                <div class="swiper-slide"><img src="./Assets/herdeiro do imperio.png" alt="Trawn"></div>
+                <div class="swiper-slide"><img src="./Assets/tropas.jpg" alt="Death troopers" ></div>
+            
+            
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <!--coluna 1-->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo__livro">Watchmen</h2>
+                        <p class="descricao__texto">Quem vigia os vigilantes?</p>
+                    </div>
+                    <img src="./Assets/watchmen.jpeg" class="descricao__imagem" >
+                </div>
+                <!--coluna 2-->
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item" ><img src="./Assets/Favoritos.svg" alt="like"></li>
+                        <li class="botoes__item" ><img src="./Assets/Compras.svg" alt="Compras"></li>
+                    </ul>
+                    
+                    <a href="#" class="botoes__ancora" >Saiba mais</a>
+                </div>
+            </div>
+    </section>
+    <!--CARROSSEL 2-->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mangás e HQ's</h2>
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div> 
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                    <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/dbz1.jpg" alt="Dragonball" ></div>
+                <div class="swiper-slide"><img src="./Assets/naruto.jpg" alt="Naruto "></div>
+                <div class="swiper-slide"><img src="./Assets/onepiecemanga.jpg" alt="One Piece" "></div>
+                <div class="swiper-slide"><img src="./Assets/watchmencapa.jpeg" alt="Watchmen "></div>
+                <div class="swiper-slide"><img src="./Assets/superman.jpg" alt="Superman"></div>
+                <div class="swiper-slide"><img src="./Assets/joker.jpg" alt="Piada Mortal" ></div>
+                <div class="swiper-slide"><img src="./Assets/tartaruga.jpg" alt="Last Ronin" ></div>
+            
+            
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            </div>
+            <!--CARD CYBERPUNK-->
+            <div class="card">
+                <div class="card__descricao">
+                    <!--coluna 1-->
+                    <div class="descricao">
+                        <img src="./Assets/Estrelinhas.svg" class="estrelinha">
+                        <h3 class="descricao__titulo">Bem vindos a Night City...</h3>
+                        <h2 class="descricao__titulo__livro">Cyberpunk 2077</h2>
+                        <p class="descricao__texto">Contém o jogo base + DLC Phantom City</p>
+                    </div>
+                    <img src="./Assets/cyberP.jfif" class="descricao__imagem2" >
+                </div>
+                <!--coluna 2-->
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item" ><img src="./Assets/Favoritos.svg" alt="like"></li>
+                        <li class="botoes__item" ><img src="./Assets/Compras.svg" alt="Compras"></li>
+                    </ul>
+                    
+                    <a href="#" class="botoes__ancora2" >Compre agora!</a>
+                </div>
+            </div>
+            <section class="topicos">
+                <h2 class="topicos__titulo">Tópicos visitados recentementes</h2>
+                <ul class="topicos__lista">
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Ficção Cientifica</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Aventura</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Romance</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Mangá</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">HQ's</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Jogos digitais</a>
+                    </li>
+                </ul>
+                
+            </section>
+            <section class="contato">
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto">Atualizações de livros, mangás, HQ's, promoções e outros.</p>
+                <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+            </section>
+            <hr/>
+            <footer class="rodape">
+                <h2 class="rodape__titulo">Grupo ShanBooks</h2>
+
+            </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: 'swiper-pagination',
+            type: 'bullets',
+        },
+
+});
+    </script>
+</body>
+</html>
